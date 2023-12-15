@@ -1,0 +1,40 @@
+/* this is css */
+
+.lib{
+    border: 1px solid black;
+    height:20px;
+    width: 20px;
+    background-color: white ;
+    text-align: center;
+    margin: 3.5px ;
+    
+}
+.lib i {
+    margin-top: 5px;
+    font-size: 10px;
+}
+.whole{
+    height:25px;
+    width: 25px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.lib2{
+    border-bottom: 1px solid black;
+    height:20px;
+    width: 20px;
+    background-color: white ;
+    text-align: center;
+    margin: 3.5px ;
+    
+}
+/* and this is html code*/
+
+      <div class="whole">
+            <div class="lib">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+            <div class="lib2">
+                <i class="fa-solid fa-arrow-down-long"></i>
+            </div>
