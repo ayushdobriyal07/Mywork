@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color: rgb(233, 227, 227);
+}
+
+/*  This is navbar designing  */
+.navbar {
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+
+.nav-logo:hover {
+    border: 1.5px solid white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 1px;
+    padding: 1px;
+
+}
+
+.add-icon i {
+    font-size: 13px;
+}
+
+.ind {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.d {
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.location {
+    width: 80px;
+    margin-left: 20px;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+
+.location:hover {
+    border: 1.5px solid white;
+}
+
+.search-bar {
+    width: 730px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#select {
+    width: 52px;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+#select:hover {
+    background-color: #cccccc;
+}
+
+#search {
+    box-sizing: border-box;
+    width: 624px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-left: 1px solid black;
+
+}
+
+.ser-btn {
+    box-sizing: border-box;
+    width: 45px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    background-color: #febd69;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ser-btn:hover {
+    background-color: #ffa52f;
+}
+
+.signup {
+    box-sizing: border-box;
+    width: 113px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.signup:hover {
+    border: 1.5px solid white;
+}
+
+.signup .greet {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.acc {
+    box-sizing: border-box;
+    display: flex;
+    width: 120px;
+    padding: .5px;
+    align-items: center;
+}
+
+.acc .acc-sub {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.acc i {
+    margin-left: 6px;
+    font-size: 10px;
+    color: #cccccc;
+}
+
+.return-order {
+    width: 78px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 19px;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.return-order:hover {
+    border: 1.5px solid white;
+}
+
+.return {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.order {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    border: 1.5px solid white;
+}
+
+.cart p {
+    font-size: 19px;
+}
+
+/* navbar 2 desinig star from here*/
+.navbar2 {
+    background-color: #232f3e;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+}
+
+.ham-burg {
+    height: 35px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+
+.ham-burg:hover {
+    border: 1.5px solid white;
+}
+
+.ham-burg p {
+    margin-left: 8px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.ham-burg i {
+    font-size: 19px;
+    /* font-family: ; */
+}
+
+.nav-list {
+    box-sizing: border-box;
+}
+
+.nav-list ul {
+    box-sizing: border-box;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    /* justify-content: flex-start; */
+}
+
+.nav-list ul li {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+
+.nav-list ul li:hover {
+    border: 1.5px solid white;
+}
+
+/* Main body designing start from there*/
+.main {
+    background-image: url('img1.jpg');
+    background-size: cover;
+    height: 100vh;
+    /* background-blend-mode: color: white; */
+}
+
+.welcome {
+    position: relative;
+    margin-top: 232px;
+}
+
+.welcome p {
+    box-sizing: border-box;
+    background-color: white;
+    width: 1300px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.welcome a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.welcome a:hover {
+    color: rgb(236, 149, 35);
+    text-decoration: underline;
+}
+
+.mega-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 1300px;
+    margin-top: 10px;
+    justify-items: baseline;
+}
+
+.container1 {
+    height: 380px;
+    width: 420px;
+    background-color: white;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    padding-top: 15px;
+}
+
+.container1 a:hover {
+    color: #ffa52f;
+}
+
+.container1 h2 {
+    margin-left: 20px;
+}
+
+#cont {
+    display: inline-block;
+    padding: 0px;
+}
+
+#cont .container-singup h2 {
+    padding-top: 15px;
+}
+
+.btn-sign-in {
+    width: 270px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 9px;
+    margin-left: 22px;
+}
+
+.btn-sign-in:hover {
+    background-color: #f0ca0b;
+}
+
+.amazon-ad img {
+    margin-top: 2px;
+    margin-left: 6px;
+}
+
+.contain-material {
+    display: flex;
+    margin-top: 15px;
+}
+
+.container1 a {
+    color: #007185;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#img-deals {
+    margin-left: 55px;
+}
