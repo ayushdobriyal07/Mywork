@@ -1,0 +1,224 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+/* 	background-color: #000000; */
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: #0000000a;
+	display: flex;
+	margin: 0 auto;
+	min-width: 100%;
+	justify-content: space-evenly;
+}
+.nav-list ul{
+	display: inline-flex;
+	list-style: none;
+	color: #ffffff;
+	font-weight:bold;
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+}
+.navbar ul li{
+	width: 120px;
+	margin: 0px;
+	padding: 0px;
+	margin-top:25px;
+	margin-left:25px;
+	height: 2rem;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	/* height: 32px; */
+}
+.navbar ul li a:hover{
+	color:white;
+}
+.navbar ul li:hover{
+	border-bottom: 2px solid lightblue;
+	cursor:pointer;
+}
+.nav-btn{
+	display: flex;
+	margin-left: 100px;
+	justify-content: flex-end;
+	align-items: center;
+	max-width: 100%;
+}
+.nav-btn .btn{
+	width: 10.5rem;
+	height: 2.5rem;
+	background-color: rgb(252, 160, 40);
+	border: 2px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	justify-content: end;
+}
+.nav-btn .btn:hover{
+	background-color: #ffbd84;
+}
+.sublist {
+	display: none;
+}
+.navbar ul li:hover .sublist
+{
+	display: block;
+	position: absolute;
+	font-family:calibri;
+	background: #1a1b1ce3;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.navbar ul li:hover .sublist ul{
+	display: block;
+	margin: 25px;
+	width: 250px
+}
+.navbar ul li:hover .sublist ul li {
+	width:200px;
+	padding:10px;
+	border-bottom:1px dotted #f3970d;
+	background: transparent;
+	border-radius:0px;
+	text-align:center;
+	margin-top:2px;
+}
+.navbar ul li:hover .sublist ul li:hover{
+	border-left: 2px solid rgb(255, 255, 255);
+	font-size: 20px;
+}
+.navbar ul li:hover .sublist ul li::last-child
+{
+	border-bottom:none;
+}
+header{
+	font-family: calibri;
+	font-size: 50px;
+	margin-left:10px;
+	font-weight:bolder;
+	color:white
+}
+sub{
+	font-weight:50;
+	font-size:x-large	
+}
+.Home{
+	background-image: url('https://www.hdwallpapers.in/download/chicago_nights-wide.jpg');
+	height:1200px;
+	background-repeat:no-repeat;
+	background-size:cover;
+/* 	background-size:1519px 100vh; */
+}
+.h1{
+	background-image:url('https://cdna.artstation.com/p/assets/images/images/025/752/604/large/joshua-golde-waben03web.jpg?1586815618');
+	height:300px;
+	background-repeat:no-repeat;
+	color:#edf0d4;
+	text-align:-left;
+	font-size:xxx-large;
+	font-weight:bolderl;
+	text-decoration:none;
+	text-shadow:3px -5px 5px #8abfe8f5
+}
+.h2{	
+	height:55px;
+	width:120px;
+	margin-left:800px;
+	margin-bottom:100px;
+	background-color:#201f27;
+	text-align:center;
+	border:lightblue dotted;
+	border-radius:50px;
+	font-size:x-large;
+	color:white;
+}
+.h2:hover{
+	height:55px;
+	width:120px;
+	margin-left:800px;
+	margin-bottom:100px;
+	background-color:#150785e8;
+	text-align:center;
+	border:lightblue dotted;
+	border-radius:50px;
+	font-size:x-large;
+	cursor:pointer;
+}
+.marquee{
+	background-color:#ca782e;
+	font-family: cursive;
+	font-size:x-large;
+	color:black;
+	text-decoration:none;
+	text-shadow:1px 5px 5px black;
+	
+}
+header{
+	color:white;
+}
+.i1{
+/* 	width:; */
+	height:20vh;
+	display:inline-grid;
+	padding:20px
+}
+.i1:hover{
+	height:30vh;
+/* 	width:100px; */
+	margin:0;
+	padding:5px;
+	border:5px dotted #d2ff0045;
+	background-color:#a52a2a52
+}
+.div{
+	background-image:url('https://thumbs.dreamstime.com/b/chicago-night-skyline-across-lake-michigan-79119114.jpg');
+	background-size:cover;
+	height:350px;
+
+}
+.some{
+	color:white;
+	font-family:cursive;
+	font-size:xxx-large;
+	text-align:center;
+	/* position: absolute; */
+}
+.u1{
+	margin-left:100px;
+	font-size:x-large;
+	font-weight:bolder;
+	
+}
+h4{
+	margin-left:50px;
+	font-size:xx-large;
+	margin-top:50px;
+}
+.s1{
+	height:100vh;
+	font-size:large;
+	font-weight:bold;
+	font-family:calibri;
+	
+}
+h3{
+	font-size:xxx-large;
+	text-decoration:underline;
+	font-family:sans-serif
+}
+.img1{
+	height:250px;
+	position:relative;
+	display:inline-grid;
+	margin-top:50px
+}
+.footer{
+	background-color:#3e3a3a
+}
